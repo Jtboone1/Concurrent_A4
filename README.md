@@ -12,7 +12,7 @@ We included magick (https://imagemagick.org/script/index.php) which is used for 
 This allowed us to convert our output PGM to a PNG in order to see if we had similar outputs.
 <br>
 <br>
-If your on Linux, to see the output, simply run ./magick output.pgm output.png to convert the program's output to a png.
+If your on Linux, to see the output, simply run `./magick output.pgm output.png` to convert the program's output to a png.
 <br>
 <br>
 Our output is shown below:
