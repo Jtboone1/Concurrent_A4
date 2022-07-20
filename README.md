@@ -8,7 +8,7 @@ We decided to just use point-to-point communication. In order to avoid deadlock,
 Every time we 
 
 ## Output
-We included magick (https://imagemagick.org/script/index.php) which is used for editing digital images in this package. <br><br>
+We included magick (https://imagemagick.org/script/index.php) which is used for editing digital images in this package.
 This allowed us to convert our output PGM to a PNG in order to see if we had similar outputs.
 <br>
 <br>
