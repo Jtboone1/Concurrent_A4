@@ -6,9 +6,9 @@ Yash Patel 201842812
 ## Implementation
 We decided to just use point-to-point communication. In order to avoid deadlock, we filtered 4/16 subimages concurrently.
 We basically have 2 states for each subimage, provide or filter. 4 subimages filter, and the other 12 provide the neighbor pixels
-during the filtering process. The `order_arr` shows the order in which each subimage will be filtered concurrently. <br><br>
+during the filtering process. The `order_arr` shows the order in which each subimage will be filtered concurrently. <br>
 
-As the subimages are filtering using the gaussian kernel, they send their pixels to the 16th node for image reconstruction.
+As the subimages are being filtered using the gaussian kernel, they send their pixels to the 16th node for image reconstruction.
 The 17th node is responsible for assigning the state of each sub image.
 
 ## Output
