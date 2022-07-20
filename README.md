@@ -16,9 +16,6 @@ If your on Linux, to see the output, simply run `./magick output.pgm output.png`
 <br>
 <br>
 Our output is shown below:
-<br>
-<br>
-
 ![output](output.png "Output")
 
 ## Requirements
