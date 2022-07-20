@@ -15,7 +15,7 @@ This allowed us to convert our output PGM to a PNG in order to see if we had sim
 If your on Linux, to see the output, simply run `./magick output.pgm output.png` to convert the program's output to a png.
 <br>
 <br>
-Our output is shown below:<br>
+Our output is shown below:<br><br>
 ![output](output.png "Output")
 
 ## Requirements
