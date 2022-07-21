@@ -12,18 +12,18 @@ As the subimages are being filtered using the gaussian kernel, they send their p
 We also used a 17th node, which is responsible for assigning the state of each sub image.
 
 ## Output
-We included the image edititng tool magick (https://imagemagick.org/script/index.php) in this package.
-This allowed us to convert our output PGM to a PNG in order to see if we had similar outputs.
-<br>
-<br>
-If your on Linux, to see the output, simply run `./magick output.pgm output.png` to convert the program's output to a png.
+We used the image edititng tool magick (https://imagemagick.org/script/index.php) to test our output.
+This allowed us to convert our output PGM file to a PNG in order to see if we had similar outputs.
 <br>
 <br>
 Our output is shown below:<br><br>
 ![output](output.png "Output")
 
 ## Requirements
-This python script requires numpy and mpi4py.
+This python script requires numpy and mpi4py. We used pip for installation:
+
+`pip install mpi4py`<br><br>
+`pip install numpy`
 
 ## Running the software
 We were able to successfully generate the expected output using mpirun and mpiexec. The program requires 18 nodes (16 subimage nodes,
